@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B35BFF6B1F3BE3FC006B3B5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35BFF6A1F3BE3FC006B3B5D /* AppDelegate.swift */; };
+		B35BFF6D1F3BE3FC006B3B5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35BFF6C1F3BE3FC006B3B5D /* ViewController.swift */; };
+		B35BFF701F3BE3FC006B3B5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35BFF6E1F3BE3FC006B3B5D /* Main.storyboard */; };
+		B35BFF731F3BE3FC006B3B5D /* TV_Show_Alerter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B35BFF711F3BE3FC006B3B5D /* TV_Show_Alerter.xcdatamodeld */; };
+		B35BFF751F3BE3FC006B3B5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35BFF741F3BE3FC006B3B5D /* Assets.xcassets */; };
+		B35BFF781F3BE3FC006B3B5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35BFF761F3BE3FC006B3B5D /* LaunchScreen.storyboard */; };
+		B35BFF831F3BE3FD006B3B5D /* TV_Show_AlerterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35BFF821F3BE3FD006B3B5D /* TV_Show_AlerterTests.swift */; };
+		B35BFF8E1F3BE3FD006B3B5D /* TV_Show_AlerterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35BFF8D1F3BE3FD006B3B5D /* TV_Show_AlerterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B35BFF7F1F3BE3FD006B3B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B35BFF5F1F3BE3FC006B3B5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B35BFF661F3BE3FC006B3B5D;
+			remoteInfo = "TV Show Alerter";
+		};
+		B35BFF8A1F3BE3FD006B3B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B35BFF5F1F3BE3FC006B3B5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B35BFF661F3BE3FC006B3B5D;
+			remoteInfo = "TV Show Alerter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B35BFF671F3BE3FC006B3B5D /* TV Show Alerter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TV Show Alerter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35BFF6A1F3BE3FC006B3B5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B35BFF6C1F3BE3FC006B3B5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B35BFF6F1F3BE3FC006B3B5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B35BFF721F3BE3FC006B3B5D /* TV_Show_Alerter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TV_Show_Alerter.xcdatamodel; sourceTree = "<group>"; };
+		B35BFF741F3BE3FC006B3B5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B35BFF771F3BE3FC006B3B5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B35BFF791F3BE3FC006B3B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B35BFF7E1F3BE3FD006B3B5D /* TV Show AlerterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TV Show AlerterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35BFF821F3BE3FD006B3B5D /* TV_Show_AlerterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV_Show_AlerterTests.swift; sourceTree = "<group>"; };
+		B35BFF841F3BE3FD006B3B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B35BFF891F3BE3FD006B3B5D /* TV Show AlerterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TV Show AlerterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35BFF8D1F3BE3FD006B3B5D /* TV_Show_AlerterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV_Show_AlerterUITests.swift; sourceTree = "<group>"; };
+		B35BFF8F1F3BE3FD006B3B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B35BFF641F3BE3FC006B3B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35BFF7B1F3BE3FD006B3B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35BFF861F3BE3FD006B3B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B35BFF5E1F3BE3FC006B3B5D = {
+			isa = PBXGroup;
+			children = (
+				B35BFF691F3BE3FC006B3B5D /* TV Show Alerter */,
+				B35BFF811F3BE3FD006B3B5D /* TV Show AlerterTests */,
+				B35BFF8C1F3BE3FD006B3B5D /* TV Show AlerterUITests */,
+				B35BFF681F3BE3FC006B3B5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B35BFF681F3BE3FC006B3B5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B35BFF671F3BE3FC006B3B5D /* TV Show Alerter.app */,
+				B35BFF7E1F3BE3FD006B3B5D /* TV Show AlerterTests.xctest */,
+				B35BFF891F3BE3FD006B3B5D /* TV Show AlerterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B35BFF691F3BE3FC006B3B5D /* TV Show Alerter */ = {
+			isa = PBXGroup;
+			children = (
+				B35BFF6A1F3BE3FC006B3B5D /* AppDelegate.swift */,
+				B35BFF6C1F3BE3FC006B3B5D /* ViewController.swift */,
+				B35BFF6E1F3BE3FC006B3B5D /* Main.storyboard */,
+				B35BFF741F3BE3FC006B3B5D /* Assets.xcassets */,
+				B35BFF761F3BE3FC006B3B5D /* LaunchScreen.storyboard */,
+				B35BFF791F3BE3FC006B3B5D /* Info.plist */,
+				B35BFF711F3BE3FC006B3B5D /* TV_Show_Alerter.xcdatamodeld */,
+			);
+			path = "TV Show Alerter";
+			sourceTree = "<group>";
+		};
+		B35BFF811F3BE3FD006B3B5D /* TV Show AlerterTests */ = {
+			isa = PBXGroup;
+			children = (
+				B35BFF821F3BE3FD006B3B5D /* TV_Show_AlerterTests.swift */,
+				B35BFF841F3BE3FD006B3B5D /* Info.plist */,
+			);
+			path = "TV Show AlerterTests";
+			sourceTree = "<group>";
+		};
+		B35BFF8C1F3BE3FD006B3B5D /* TV Show AlerterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B35BFF8D1F3BE3FD006B3B5D /* TV_Show_AlerterUITests.swift */,
+				B35BFF8F1F3BE3FD006B3B5D /* Info.plist */,
+			);
+			path = "TV Show AlerterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B35BFF661F3BE3FC006B3B5D /* TV Show Alerter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B35BFF921F3BE3FD006B3B5D /* Build configuration list for PBXNativeTarget "TV Show Alerter" */;
+			buildPhases = (
+				B35BFF631F3BE3FC006B3B5D /* Sources */,
+				B35BFF641F3BE3FC006B3B5D /* Frameworks */,
+				B35BFF651F3BE3FC006B3B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TV Show Alerter";
+			productName = "TV Show Alerter";
+			productReference = B35BFF671F3BE3FC006B3B5D /* TV Show Alerter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B35BFF7D1F3BE3FD006B3B5D /* TV Show AlerterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B35BFF951F3BE3FD006B3B5D /* Build configuration list for PBXNativeTarget "TV Show AlerterTests" */;
+			buildPhases = (
+				B35BFF7A1F3BE3FD006B3B5D /* Sources */,
+				B35BFF7B1F3BE3FD006B3B5D /* Frameworks */,
+				B35BFF7C1F3BE3FD006B3B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B35BFF801F3BE3FD006B3B5D /* PBXTargetDependency */,
+			);
+			name = "TV Show AlerterTests";
+			productName = "TV Show AlerterTests";
+			productReference = B35BFF7E1F3BE3FD006B3B5D /* TV Show AlerterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B35BFF881F3BE3FD006B3B5D /* TV Show AlerterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B35BFF981F3BE3FD006B3B5D /* Build configuration list for PBXNativeTarget "TV Show AlerterUITests" */;
+			buildPhases = (
+				B35BFF851F3BE3FD006B3B5D /* Sources */,
+				B35BFF861F3BE3FD006B3B5D /* Frameworks */,
+				B35BFF871F3BE3FD006B3B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B35BFF8B1F3BE3FD006B3B5D /* PBXTargetDependency */,
+			);
+			name = "TV Show AlerterUITests";
+			productName = "TV Show AlerterUITests";
+			productReference = B35BFF891F3BE3FD006B3B5D /* TV Show AlerterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B35BFF5F1F3BE3FC006B3B5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Aoi;
+				TargetAttributes = {
+					B35BFF661F3BE3FC006B3B5D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					B35BFF7D1F3BE3FD006B3B5D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B35BFF661F3BE3FC006B3B5D;
+					};
+					B35BFF881F3BE3FD006B3B5D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B35BFF661F3BE3FC006B3B5D;
+					};
+				};
+			};
+			buildConfigurationList = B35BFF621F3BE3FC006B3B5D /* Build configuration list for PBXProject "TV Show Alerter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B35BFF5E1F3BE3FC006B3B5D;
+			productRefGroup = B35BFF681F3BE3FC006B3B5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B35BFF661F3BE3FC006B3B5D /* TV Show Alerter */,
+				B35BFF7D1F3BE3FD006B3B5D /* TV Show AlerterTests */,
+				B35BFF881F3BE3FD006B3B5D /* TV Show AlerterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B35BFF651F3BE3FC006B3B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35BFF781F3BE3FC006B3B5D /* LaunchScreen.storyboard in Resources */,
+				B35BFF751F3BE3FC006B3B5D /* Assets.xcassets in Resources */,
+				B35BFF701F3BE3FC006B3B5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35BFF7C1F3BE3FD006B3B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35BFF871F3BE3FD006B3B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B35BFF631F3BE3FC006B3B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35BFF6D1F3BE3FC006B3B5D /* ViewController.swift in Sources */,
+				B35BFF6B1F3BE3FC006B3B5D /* AppDelegate.swift in Sources */,
+				B35BFF731F3BE3FC006B3B5D /* TV_Show_Alerter.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35BFF7A1F3BE3FD006B3B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35BFF831F3BE3FD006B3B5D /* TV_Show_AlerterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35BFF851F3BE3FD006B3B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35BFF8E1F3BE3FD006B3B5D /* TV_Show_AlerterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B35BFF801F3BE3FD006B3B5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B35BFF661F3BE3FC006B3B5D /* TV Show Alerter */;
+			targetProxy = B35BFF7F1F3BE3FD006B3B5D /* PBXContainerItemProxy */;
+		};
+		B35BFF8B1F3BE3FD006B3B5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B35BFF661F3BE3FC006B3B5D /* TV Show Alerter */;
+			targetProxy = B35BFF8A1F3BE3FD006B3B5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B35BFF6E1F3BE3FC006B3B5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B35BFF6F1F3BE3FC006B3B5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B35BFF761F3BE3FC006B3B5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B35BFF771F3BE3FC006B3B5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B35BFF901F3BE3FD006B3B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B35BFF911F3BE3FD006B3B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B35BFF931F3BE3FD006B3B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TV Show Alerter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.TV-Show-Alerter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B35BFF941F3BE3FD006B3B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TV Show Alerter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.TV-Show-Alerter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B35BFF961F3BE3FD006B3B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TV Show AlerterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.TV-Show-AlerterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TV Show Alerter.app/TV Show Alerter";
+			};
+			name = Debug;
+		};
+		B35BFF971F3BE3FD006B3B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TV Show AlerterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.TV-Show-AlerterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TV Show Alerter.app/TV Show Alerter";
+			};
+			name = Release;
+		};
+		B35BFF991F3BE3FD006B3B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "TV Show AlerterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.TV-Show-AlerterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "TV Show Alerter";
+			};
+			name = Debug;
+		};
+		B35BFF9A1F3BE3FD006B3B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "TV Show AlerterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.TV-Show-AlerterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "TV Show Alerter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B35BFF621F3BE3FC006B3B5D /* Build configuration list for PBXProject "TV Show Alerter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35BFF901F3BE3FD006B3B5D /* Debug */,
+				B35BFF911F3BE3FD006B3B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B35BFF921F3BE3FD006B3B5D /* Build configuration list for PBXNativeTarget "TV Show Alerter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35BFF931F3BE3FD006B3B5D /* Debug */,
+				B35BFF941F3BE3FD006B3B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B35BFF951F3BE3FD006B3B5D /* Build configuration list for PBXNativeTarget "TV Show AlerterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35BFF961F3BE3FD006B3B5D /* Debug */,
+				B35BFF971F3BE3FD006B3B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B35BFF981F3BE3FD006B3B5D /* Build configuration list for PBXNativeTarget "TV Show AlerterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35BFF991F3BE3FD006B3B5D /* Debug */,
+				B35BFF9A1F3BE3FD006B3B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B35BFF711F3BE3FC006B3B5D /* TV_Show_Alerter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B35BFF721F3BE3FC006B3B5D /* TV_Show_Alerter.xcdatamodel */,
+			);
+			currentVersion = B35BFF721F3BE3FC006B3B5D /* TV_Show_Alerter.xcdatamodel */;
+			path = TV_Show_Alerter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B35BFF5F1F3BE3FC006B3B5D /* Project object */;
+}
